@@ -54,7 +54,6 @@ function checkLetter(button) {
     let returnedLetter = null;
     const letters = document.querySelectorAll(".letter");
     for (let i= 0; i < letters.length; i++){
-        console.log(button.textContent);
         if ( letters[i].textContent == button.textContent){
             letters[i].classList.add("show");
             returnedLetter = letters[i].textContent;
