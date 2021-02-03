@@ -64,7 +64,6 @@ function checkLetter(button) {
 }
 
 function checkWin() {
-    debugger;
     const letters = document.querySelectorAll(".letter");
     const show = document.querySelectorAll(".show");
     if (letters.length == show.length){
